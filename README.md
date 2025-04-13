@@ -50,7 +50,7 @@ src/
 
 ---
 
-## TECH STACKS
+## 💻 TECH STACKS
 
 🔷 Frontend
 • React – UI library for building interactive interfaces
