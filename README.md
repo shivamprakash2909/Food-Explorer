@@ -34,20 +34,21 @@ src/
     •	Explored multiple endpoints like product search, barcode lookup.
     •	Built TypeScript models (Product, ProductsResponse) to ensure type-safe API integration.
 
-2. 🔁 Infinite Scrolling
-   • Implemented smooth infinite scroll for product listings using react-infinite-scroll-component, with loading indicators and page-wise API requests.
+    2. 🔁 Infinite Scrolling
+    • Implemented smooth infinite scroll for product listings using react-infinite-scroll-component, with loading indicators and page-wise API requests.
 
-3. ⚠️ Handling Incomplete or Unknown Data
-   • Issue: Some products returned undefined or "unknown" values for fields like nutrition_grades.
-   • Solution: Gracefully handled such cases by displaying "NA" and ensuring consistent UI fallback behavior.
+    3. ⚠️ Handling Incomplete or Unknown Data
+    • Issue: Some products returned undefined or "unknown" values for fields like nutrition_grades.
+    • Solution: Gracefully handled such cases by displaying "NA" and ensuring consistent UI fallback behavior.
 
-4. ⚡ Performance Optimization
-   • Limited the number of products fetched per page (page_size=24) and ensured efficient state updates to maintain responsiveness.
+    4. ⚡ Performance Optimization
+    • Limited the number of products fetched per page (page_size=24) and ensured efficient state updates to maintain responsiveness.
 
-5. 💅 User Experience Enhancements
-   • Added loading indicators using lucide-react icons.
-   • Provided clear feedback when no results are found or during network errors.
-   ***
+    5. 💅 User Experience Enhancements
+    • Added loading indicators using lucide-react icons.
+    • Provided clear feedback when no results are found or during network errors.
+
+---
 
 ## TECH STACKS
 
@@ -58,7 +59,8 @@ src/
 • Tailwind CSS – Utility-first CSS framework for rapid UI development
 • Lucide React – Icon library used for interactive UI elements like loaders
 • React Infinite Scroll Component – For smooth infinite scrolling behavior
--------------
+
+---
 
 ## ⚙️ Setup Instructions
 
