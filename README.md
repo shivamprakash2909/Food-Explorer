@@ -2,6 +2,8 @@
 
 A lightweight product search and category browser app using the [OpenFoodFacts API](https://world.openfoodfacts.org). Users can search for food products and view product details via barcode scanning .
 
+## 🕒 Time for Completion
+
 ## 🚀 Features
 
 - 🔍 Search food products by name
@@ -50,7 +52,7 @@ src/
 
 ---
 
-## 💻 TECH STACKS
+## 💻 Tech Stack
 
 🔷 Frontend
 • React – UI library for building interactive interfaces
