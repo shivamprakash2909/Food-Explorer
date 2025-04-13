@@ -30,9 +30,9 @@ src/
 
 ## 💡 Step for problem solving
 
-    1.	🧠 Understanding the OpenFoodFacts API
-    •	Explored multiple endpoints like product search, barcode lookup.
-    •	Built TypeScript models (Product, ProductsResponse) to ensure type-safe API integration.
+    1.🧠 Understanding the OpenFoodFacts API
+    •Explored multiple endpoints like product search, barcode lookup.
+    •Built TypeScript models (Product, ProductsResponse) to ensure type-safe API integration.
 
     2. 🔁 Infinite Scrolling
     • Implemented smooth infinite scroll for product listings using react-infinite-scroll-component, with loading indicators and page-wise API requests.
