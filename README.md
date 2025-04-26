@@ -75,7 +75,10 @@ cd Food-Explorer
 ```
 
 Install Dependencies:
+```bash
 npm install
-
+```
 Start the Development Server:
-npm start
+```bash
+npm run dev
+```
