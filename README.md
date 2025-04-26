@@ -16,20 +16,14 @@ A lightweight product search and category browser app using the [OpenFoodFacts A
 
 ## 📁 Project Structure
 
-src/
-│
-├── api/
-│ └── products.ts # API utility functions to fetch data from OpenFoodFacts
-│
-├── pages/
-│ └── HomePage.tsx # Main homepage that loads categories and products
-│
-├── types/
-│ └── product.ts # TypeScript interfaces for Product and API responses
-│
-├── components/ # Reusable UI components (if any)
-│
-└── App.tsx # App entry point
+- **`src/`**: Contains all the source code of the application.
+  - **`components/`**: Holds the reusable components.
+  - **`styles/`**: Contains the CSS/SCSS files for styling.
+  - **`App.js`**: Main React component file.
+- **`public/`**: Public files like HTML templates and static assets.
+- **`.gitignore`**: Specifies files to be ignored by Git.
+- **`package.json`**: Manages dependencies, scripts, and metadata for the project.
+- **`README.md`**: Documentation about the project.
 
 ## 💡 Step for problem solving
 
