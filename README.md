@@ -70,8 +70,8 @@ src/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/shiqamprakash2907/openfoodfacts-explorer.git
-cd openfoodfacts-explorer
+git clone https://github.com/shivamprakash2909/Food-Explorer.git
+cd Food-Explorer
 ```
 
 Install Dependencies:
