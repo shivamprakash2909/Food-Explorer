@@ -74,11 +74,11 @@ git clone https://github.com/shivamprakash2909/Food-Explorer.git
 cd Food-Explorer
 ```
 
-Install Dependencies:
+### 2. Install Dependencies
 ```bash
 npm install
 ```
-Start the Development Server:
+### 3. Start the Development Server
 ```bash
 npm run dev
 ```
