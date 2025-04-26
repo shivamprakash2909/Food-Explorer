@@ -100,7 +100,14 @@ export function ProductDetail() {
                     : product.nutrition_grades.toUpperCase()}
                 </div>
               </div>
-
+              <div className="mb-6">
+                <h2 className="text-lg font-semibold text-gray-700 mb-2">
+                  Barcode
+                </h2>
+                <p className="text-gray-600">
+                  {product.code || "No Barcode available"}
+                </p>
+              </div>
               <div className="mb-6">
                 <h2 className="text-lg font-semibold text-gray-700 mb-2">
                   Categories

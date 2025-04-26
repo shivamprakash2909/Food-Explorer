@@ -14,7 +14,7 @@ export function ProductCard({ product }: ProductCardProps) {
       c: "bg-yellow-500",
       d: "bg-orange-500",
       e: "bg-red-500",
-    }[product.nutrition_grades?.toLowerCase() || "e"] || "bg-gray-600";
+    }[product.nutrition_grades?.toLowerCase()] || "bg-gray-600";
 
   return (
     <Link to={`/product/${product.code}`} className="block">
@@ -32,7 +32,8 @@ export function ProductCard({ product }: ProductCardProps) {
             className={`absolute top-2 right-2 ${nutritionGradeColor} text-black rounded-full w-8 h-8 flex items-center justify-center font-bold`}
           >
             {!product.nutrition_grades ||
-            product.nutrition_grades.toLowerCase() === "unknown"
+            product.nutrition_grades.toLowerCase() === "unknown" ||
+            product.nutrition_grades.toLowerCase() === "not-applicable"
               ? "N/A"
               : product.nutrition_grades.toUpperCase()}
           </div>

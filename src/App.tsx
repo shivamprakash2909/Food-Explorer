@@ -1,8 +1,8 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { HomePage } from './pages/HomePage';
-import { ProductDetail } from './pages/ProductDetail';
-import { QueryClient, QueryClientProvider } from 'react-query';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HomePage } from "./pages/HomePage";
+import { ProductDetail } from "./pages/ProductDetail";
+import { QueryClient, QueryClientProvider } from "react-query";
 
 const queryClient = new QueryClient();
 
