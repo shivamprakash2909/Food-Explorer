@@ -17,13 +17,25 @@ A lightweight product search and category browser app using the [OpenFoodFacts A
 ## 📁 Project Structure
 
 - **`src/`**: Contains all the source code of the application.
-  - **`components/`**: Holds the reusable components.
-  - **`styles/`**: Contains the CSS/SCSS files for styling.
-  - **`App.js`**: Main React component file.
-- **`public/`**: Public files like HTML templates and static assets.
-- **`.gitignore`**: Specifies files to be ignored by Git.
-- **`package.json`**: Manages dependencies, scripts, and metadata for the project.
-- **`README.md`**: Documentation about the project.
+  - **`components/`**: Reusable UI components (e.g., `ProductCard.tsx`, `SearchBar.tsx`).
+  - **`pages/`**: Application pages/routes (e.g., `HomePage.tsx`, `ProductDetail.tsx`).
+  - **`types/`**: TypeScript type definitions (e.g., `product.ts` for interfaces).
+  - **`App.tsx`**: Root component of the React application.
+  - **`index.css`**: Global CSS styles (Tailwind setup).
+  - **`main.tsx`**: Entry point for rendering the React app.
+  
+  
+- **`.gitignore`**: Specifies files/folders ignored by Git (e.g., `node_modules`, build artifacts).
+- **`package.json`**: Manages project dependencies, scripts, and metadata.
+- **`package-lock.json`**: Ensures consistent dependency versions.
+- **`README.md`**: Project documentation (you're here!).
+  
+- **Configuration Files**:
+  - **`tailwind.config.js`**: Tailwind CSS theming and plugins.
+  - **`vite.config.ts`**: Vite build and dev server settings.
+  - **`tsconfig.json`**: TypeScript compiler rules.
+  - **`eslint.config.js`**: Code linting configurations.
+  - **`postcss.config.js`**: PostCSS plugin setup.
 
 ## 💡 Step for problem solving
 
