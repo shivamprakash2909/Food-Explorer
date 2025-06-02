@@ -4,7 +4,9 @@ A lightweight product search and category browser app using the [OpenFoodFacts A
 
 ## 🕒 Time for Completion
 - 4 days
-
+  
+## Live Demo
+[Click here to view the app](https://food-explorer-tnoq.onrender.com)
 ## 🚀 Features
 
 - 🔍 Search food products by name
